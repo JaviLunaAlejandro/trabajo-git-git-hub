@@ -68,7 +68,10 @@ footer ul li a{
     color: black;
 }
 
-
+nav :hover{
+    color: gold ;
+    transition: all 0.3s;
+}
 /* .pageone{
     display: grid;
     grid-template-columns: auto auto auto auto;
