@@ -5,24 +5,11 @@
 body{
     margin: auto;
     color: white;
-    background-color: #313d52;
+    background-color: #313d52; 
+    text-align: center
 }
 nav{
-    background-color: #fff;
-    /* margin: 30px auto; */
-    /* width: 300px 30px; */
-    /* width: 90%; */
-    text-align: center;
-    border: solid black;
-}
-nav ul li{
-    padding: 5px 5px 5px 5px;
-    display: inline-block;
-    width: 20%;
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
+    background-color: rgb(31, 105, 161);
 }
 h1{
     padding: 30px 30px 30px 30px;
@@ -31,6 +18,7 @@ h1{
 h2{
     font-family: 'Radio Canada', sans-serif;
 }
+
 p{
     /* padding: 5px 5px 5px 5px; */
     font-family: 'Radio Canada', sans-serif;
@@ -38,19 +26,28 @@ p{
 ul li{
     list-style: none;
 }
+.carmod{
+    text-align: center;
+}
 a{
     text-decoration: none;
     color: rgb(216, 0, 0);
 }
+.imagenmod{
+    width: 50%;
+}
 img{
     /* width: 1300px auto;
     height: 710px auto; */
-    width: 90%;
+    width: 80%;
     padding: auto;
 }
-/* iframe{
-    width: 90%;
+/* .fordgt{
+    width: 70%;
 } */
+iframe{
+    width: 80%;
+}
 footer{
     /* padding: 5px 5px 5px 5px; */
     background-color: #fff;
@@ -72,17 +69,15 @@ nav :hover{
     color: gold ;
     transition: all 0.3s;
 }
-/* .pageone{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
+
 .articulo2{
     font-size: large;
     display: grid;
     grid-template-columns: auto auto;
 }
 
-@media screen and (max-width: 480px) {
+
+/* @media screen and (max-width: 480px) {
     .pageone{
         grid-template-columns: auto auto;
     }

@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../images/c00b692e9820c3970e907eae9bf2be25.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,54 +19,112 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./noticias.html">Noticias</a></li>
-                <li><a href="./historias.html">Historias</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Auto Test</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./noticias.html">Noticas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./historias.html">Historias</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h1 class="animate__animated animate__fadeInDown">Todas las noticas de las marcas y modelos que buscás</h1>
     </header>
     <main>
         <h2>Seguridad</h2>
     </main>
     <section class="articulo">
-    <div><h2>Más tecnológica: la Chevrolet Tracker RS anticipa una importante actualización en el interior del B-SUV</h2></div>
-    <div><h3>Además de las modificaciones estéticas y el nuevo motor 1.5 turbo de 184 CV, la versión deportiva de la
-        Tracker comercializada en China estrena un profundo rediseño en el interior, con un tablero completamente
-        digital formado por dos pantallas de 10,25”.
-    </h3></div>
+        <div>
+            <h2>Más tecnológica: la Chevrolet Tracker RS anticipa una importante actualización en el interior del B-SUV
+            </h2>
+        </div>
+        <div>
+            <h3>Además de las modificaciones estéticas y el nuevo motor 1.5 turbo de 184 CV, la versión deportiva de la
+                Tracker comercializada en China estrena un profundo rediseño en el interior, con un tablero
+                completamente
+                digital formado por dos pantallas de 10,25”.
+            </h3>
+        </div>
     </section>
-    <section class="articulo2"><div><article>Este jueves fue presentada en China la versión deportiva de la Tracker, que recibió la denominación RS,
-        cambios estéticos y una nueva motorización, mucho más potente. Sin embargo, esas no fueron todas las
-        novedades del B-SUV: con la publicación de más imágenes quedó al descubierto un profundo replanteo en el
-        interior, que incorpora más tecnología y un tablero completamente digital.
+    <section class="articulo2">
+        <div>
+            <article>Este jueves fue presentada en China la versión deportiva de la Tracker, que recibió la denominación
+                RS,
+                cambios estéticos y una nueva motorización, mucho más potente. Sin embargo, esas no fueron todas las
+                novedades del B-SUV: con la publicación de más imágenes quedó al descubierto un profundo replanteo en el
+                interior, que incorpora más tecnología y un tablero completamente digital.
 
-        Para nuestra sorpresa, además del motor 1.5 turbo, la Tracker RS estrena un nuevo tablero, muy diferente al
-        que conocemos en nuestra región e incluso al de las otras versiones que se comercializan en China. En primer
-        lugar, toman protagonismo las dos enormes pantallas de 10,25 pulgadas superpuestas –no unidas- entre sí. Una
-        está destinada al instrumental, configurable por el conductor, y la otra al sistema multimedia aunque
-        también muestra múltiples informaciones del vehículo, como la navegación o la presión de inflado de los
-        neumáticos. Al adoptar el doble display, se rediseñó toda la plancha frontal del tablero, con nuevas salidas
-        de aire. Sí mantiene los comandos del climatizador y el volante, mientras que la consola donde se aloja la
-        selectora también es nueva y agrega freno de estacionamiento eléctrico. En este caso, el look deportivo está
-        dado por los revestimientos en negro y las costuras en rojo.
-        </article></div>
-    <div class="img3"><img src="../images/tablero-tracker.jpg" alt="Tablero"></div>
+                Para nuestra sorpresa, además del motor 1.5 turbo, la Tracker RS estrena un nuevo tablero, muy diferente
+                al
+                que conocemos en nuestra región e incluso al de las otras versiones que se comercializan en China. En
+                primer
+                lugar, toman protagonismo las dos enormes pantallas de 10,25 pulgadas superpuestas –no unidas- entre sí.
+                Una
+                está destinada al instrumental, configurable por el conductor, y la otra al sistema multimedia aunque
+                también muestra múltiples informaciones del vehículo, como la navegación o la presión de inflado de los
+                neumáticos. Al adoptar el doble display, se rediseñó toda la plancha frontal del tablero, con nuevas
+                salidas
+                de aire. Sí mantiene los comandos del climatizador y el volante, mientras que la consola donde se aloja
+                la
+                selectora también es nueva y agrega freno de estacionamiento eléctrico. En este caso, el look deportivo
+                está
+                dado por los revestimientos en negro y las costuras en rojo.
+            </article>
+        </div>
+        <div class="img3"><img src="../images/tablero-tracker.jpg" alt="Tablero"></div>
     </section>
     <div class="img5"><img src="../images/tracker-rs.jpg" alt="tracker"></div>
-    <div class="txt6"><article>
-        Si bien su diseño exterior es prácticamente idéntico a la Tracker que se fabrica en Brasil –y posiblemente
-        también sea producida próximamente en Argentina-, el B-SUV tiene otras diferencias en el mercado chino,
-        principalmente en cuanto a sus mecánicas: en lugar del 1.0 turbo de 116 CV –con el que se comercializa en
-        Brasil- o el 1.2 turbo de 132 CV, allí se comercializa con un 1.0 turbo de 125 CV y un 1.3 turbo de 165 CV,
-        ambos de tres cilindros y con inyección directa. La RS, por su parte, incorpora el motor naftero Ecotec 1.5
-        turbo, que desarrolla 184 CV y 25,4 kgm de torque, asociado a una caja automática de 6 velocidades. Con este
-        conjunto mecánico, el B-SUV logra una aceleración de 0 a 100 km/h en apenas 7,8 segundos, una cifra digna de un
-        hot hatch.
-    </article></div>
+    <div class="txt6">
+        <article>
+            Si bien su diseño exterior es prácticamente idéntico a la Tracker que se fabrica en Brasil –y posiblemente
+            también sea producida próximamente en Argentina-, el B-SUV tiene otras diferencias en el mercado chino,
+            principalmente en cuanto a sus mecánicas: en lugar del 1.0 turbo de 116 CV –con el que se comercializa en
+            Brasil- o el 1.2 turbo de 132 CV, allí se comercializa con un 1.0 turbo de 125 CV y un 1.3 turbo de 165 CV,
+            ambos de tres cilindros y con inyección directa. La RS, por su parte, incorpora el motor naftero Ecotec 1.5
+            turbo, que desarrolla 184 CV y 25,4 kgm de torque, asociado a una caja automática de 6 velocidades. Con este
+            conjunto mecánico, el B-SUV logra una aceleración de 0 a 100 km/h en apenas 7,8 segundos, una cifra digna de
+            un
+            hot hatch.
+        </article>
+    </div>
 
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong></strong> <code>
+              <article>
+                Si bien su diseño exterior es prácticamente idéntico a la Tracker que se fabrica en Brasil –y posiblemente
+                también sea producida próximamente en Argentina-, el B-SUV tiene otras diferencias en el mercado chino,
+                principalmente en cuanto a sus mecánicas: en lugar del 1.0 turbo de 116 CV –con el que se comercializa en
+                Brasil- o el 1.2 turbo de 132 CV, allí se comercializa con un 1.0 turbo de 125 CV y un 1.3 turbo de 165 CV,
+                ambos de tres cilindros y con inyección directa. La RS, por su parte, incorpora el motor naftero Ecotec 1.5
+                turbo, que desarrolla 184 CV y 25,4 kgm de torque, asociado a una caja automática de 6 velocidades. Con este
+                conjunto mecánico, el B-SUV logra una aceleración de 0 a 100 km/h en apenas 7,8 segundos, una cifra digna de
+                un
+                hot hatch.
+            </article>
+            </code>
+          </div>
+        </div>
+      </div>
     <div>
         <footer>
             <ul>
